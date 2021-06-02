@@ -1,1 +1,1 @@
-# Bootstrap-practice
+# My first steps with Bootstrap
