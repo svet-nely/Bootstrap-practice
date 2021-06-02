@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>test1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes/css/all.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+  <a class="navbar-brand" href="#"><i class="fa fa-camera fa-pull-left fa-pull-right fa-lg">&nbsp;Site</i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Главная<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">О компании</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Телевизоры</a>
+          <a class="dropdown-item" href="#">Мониторы</a>
+          <a class="dropdown-item" href="#">Холодильники</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Доставка</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="#">Условия оплаты</a>
+          <a class="dropdown-item" href="#">Условия доставки</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Контакты</a>
+      </li>
+    </ul>
+  </div>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Поиск по сайту" aria-label="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Найти</button>
+    </form>
+  </div>
+</nav>
+<main role="main" class="container block-cover">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Подписаться
+  </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Подпишитесь на наш блог</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          <div class="modal-body">
+            <p>Для вас только самое интересное!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Подписаться</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!--
+      <a class="btn btn-danger" href="#">
+        <i class="fa fa-atlas fa-lg"></i> Удалить</a>
+      -->
+      <ul class="nav nav-tabs" id="navTab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="tab1" data-toggle="tab" href="#mainOffice" role="tab" aria-controls="contact" aria-selected="true">Главный офис</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tab2" data-toggle="tab" href="#moscowOffice" role="tab" aria-controls="contact" aria-selected="false">Филиал в Москве</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="tab3" data-toggle="tab" href="#speterOffice" role="tab" aria-controls="contact" aria-selected="false">Филиал в С-Петербурге</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="tabContent">
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="home-tab">
+          <div class="container gp">
+              <div class="card border-secondary bg-light mb-3 gp" style="max-width: 180rem;">
+                <h5 class="card-title text-left">Контакты в Екатеринбурге</h5>
+                  <div class="card-body">
+                    <div class="office">
+                      <div class="blc1">
+                        <p>Адрес: г. Екатеринбург, ул. Белинского, 56, офис 130</p>
+                        <p>Телефон: +7 (343) 566-66-35</p>
+                        <p>E-mail: <a href="mailto:mail@mail.ru">mail@mail.ru</a></p>
+                        <p>Часы работы: Понедельник-Пятница с 9.00-18.00</p>
+                      </div>
+                      <div class="blc2">
+                    <img src="img/1581880991615.jpg" width="500" height="400">
+                      </div>
+                    </div>
+                    <br>
+                    <p class="card-text">Для прямых обращений и отправления корреспонденции воспользуйтесь адресом нашего офиса. Если у вас появились вопросы, вы можете связаться с нашим менеджером посредством формы.</p>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="profile-tab">...</div>
+        <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="contact-tab">...</div>
+      </div>
+    </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+$('#exampleModal').modal('toggle');
+</script>
+  </body>
+</html>
