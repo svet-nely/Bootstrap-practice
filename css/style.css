@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+body, html {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  color: #222222;
+}
+.block-cover {
+  position: relative;
+  float: left;
+}
+.navbar-nav li {
+  padding-right: 40px;
+}
+.office {
+  display: grid;
+  grid-template-columns: 48% 52%;
+}
+.blc1 {
+  grid-column-start: 1;
+}
+.blc2 {
+  grid-column-start: 2;
+}
+.gp {
+  padding: 20px;
+}
